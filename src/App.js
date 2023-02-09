@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ParentComponent from "./components/ControlledCheckedBox";
+import InputFocus from "./components/InputFocus";
+import Play from "./components/Play";
+import CatFriends from "./components/Scroll";
+import SW from "./components/SW";
+import SW1 from "./components/SW1";
+import UncontrolledCheckbox from "./components/UnControlledChecked";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      {/* <SW /> */}
+      <SW1 />
+      {/* <Play />
+      <InputFocus /> */}
+      {/* <div className="row">
+        <div className="col-md-6">
+          <CatFriends />
+        </div>
+      </div> */}
+      {/* <ParentComponent />
+      <UncontrolledCheckbox /> */}
     </div>
   );
 }
